@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		108E85CB269844DD008C0E04 /* isowordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E85CA269844DD008C0E04 /* isowordsUITests.swift */; };
 		108E85D526984603008C0E04 /* Trace in Frameworks */ = {isa = PBXBuildFile; productRef = 108E85D426984603008C0E04 /* Trace */; };
+		108E85D72698506E008C0E04 /* bitrise_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 108E85D62698506E008C0E04 /* bitrise_configuration.plist */; };
 		CA002618253F2ACC00394444 /* HomeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = CA002617253F2ACC00394444 /* HomeFeature */; };
 		CA09C06E25AF74D8003912CC /* SettingsPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA09C06D25AF74D8003912CC /* SettingsPreviewApp.swift */; };
 		CA09C07225AF74DA003912CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA09C07125AF74DA003912CC /* Assets.xcassets */; };
@@ -92,6 +93,7 @@
 		108E85C8269844DD008C0E04 /* isowordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isowordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		108E85CA269844DD008C0E04 /* isowordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isowordsUITests.swift; sourceTree = "<group>"; };
 		108E85CC269844DD008C0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108E85D62698506E008C0E04 /* bitrise_configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = bitrise_configuration.plist; path = ../bitrise_configuration.plist; sourceTree = "<group>"; };
 		CA09C06B25AF74D8003912CC /* SettingsPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA09C06D25AF74D8003912CC /* SettingsPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPreviewApp.swift; sourceTree = "<group>"; };
 		CA09C07125AF74DA003912CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 		DC9D467F24CF8DC00052B234 = {
 			isa = PBXGroup;
 			children = (
+				108E85D62698506E008C0E04 /* bitrise_configuration.plist */,
 				CA97086F25D5B2EE0027EABE /* AppClip */,
 				DC0C367024D1F72C00CAE21F /* Config */,
 				108E85C9269844DD008C0E04 /* isowordsUITests */,
@@ -927,6 +930,7 @@
 				DC8099F524FFDAA00076F35B /* Launch Screen.storyboard in Resources */,
 				CA73215C25DF36860095F978 /* icon-4@3x.png in Resources */,
 				CA73215825DF36860095F978 /* icon-1@3x.png in Resources */,
+				108E85D72698506E008C0E04 /* bitrise_configuration.plist in Resources */,
 				CA73215A25DF36860095F978 /* icon-3@3x.png in Resources */,
 				CA73214F25DF36860095F978 /* icon-7@2x.png in Resources */,
 				CA73215B25DF36860095F978 /* icon-1@2x.png in Resources */,
