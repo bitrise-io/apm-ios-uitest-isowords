@@ -228,6 +228,16 @@
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "108E85C7269844DD008C0E04"
+               BuildableName = "isowordsUITests.xctest"
+               BlueprintName = "isowordsUITests"
+               ReferencedContainer = "container:App/isowords.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
