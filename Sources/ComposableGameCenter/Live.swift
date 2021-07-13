@@ -75,12 +75,13 @@ extension LocalPlayerClient {
       authenticate:
         Effect
         .run { subscriber in
-          localPlayer.authenticateHandler = { viewController, error in
-            subscriber.send(error.map { $0 as NSError })
-            if viewController != nil {
-              Self.viewController = viewController
-            }
-          }
+//          localPlayer.authenticateHandler = { viewController, error in
+//            subscriber.send(error.map { $0 as NSError })
+//            if viewController != nil {
+//              Self.viewController = viewController
+//            }
+//          }
+            
           return AnyCancellable {
             Self.viewController?.dismiss()
             Self.viewController = nil
