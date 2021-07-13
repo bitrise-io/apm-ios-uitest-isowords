@@ -13,7 +13,7 @@ public struct UserDefaultsClient {
   public var setInteger: (Int, String) -> Effect<Never, Never>
 
   public var hasShownFirstLaunchOnboarding: Bool {
-    self.boolForKey(hasShownFirstLaunchOnboardingKey)
+    false
   }
 
   public func setHasShownFirstLaunchOnboarding(_ bool: Bool) -> Effect<Never, Never> {
